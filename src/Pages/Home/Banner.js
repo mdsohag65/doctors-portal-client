@@ -1,6 +1,7 @@
 import React from 'react';
 import chair from '../../assets/images/chair.png';
 import bg from '../../assets/images/bg.png';
+import CommonBtn from '../Shared/CommonBtn';
 
 const Banner = () => {
     return (
@@ -14,7 +15,7 @@ const Banner = () => {
                     <div>
                         <h1 class="text-5xl font-bold">Your New Smile Starts <br /> Here</h1>
                         <p class="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-                        <button class="btn btn-secondary text-white">Get Started</button>
+                        <CommonBtn>Get Started</CommonBtn>
                     </div>
                 </div>
             </div>
